@@ -8,4 +8,4 @@ resources:
 namespace: prod
 images:
 - name: cnych/gitops-webapp
-  newTag: 22e42c30
+  newTag: chendazhen/gitops-webapp-demo:0e79c4c
