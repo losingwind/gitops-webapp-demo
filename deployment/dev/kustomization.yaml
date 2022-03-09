@@ -7,5 +7,5 @@ resources:
 - service.yaml
 namespace: dev
 images:
-- name: cnych/gitops-webapp
-  newTag: 3f520d48
+- name: chendazhen/gitops-webapp-demo
+  newTag: 2bc0c10
