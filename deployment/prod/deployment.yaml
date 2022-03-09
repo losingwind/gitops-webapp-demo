@@ -15,7 +15,7 @@ spec:
         app: gitops-webapp
     spec:
       containers:
-      - image:  chendazhen/gitops-webapp-demo:$git_hash
+      - image:  chendazhen/gitops-webapp-demo:2bc0c10
         name: gitops-webapp
         imagePullPolicy: Always
         ports:
