@@ -8,4 +8,4 @@ resources:
 namespace: dev
 images:
 - name: chendazhen/gitops-webapp-demo
-  newTag: e39138e
+  newTag: 9364a27
