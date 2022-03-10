@@ -51,5 +51,3 @@ jobs:
         github_token: ${{ secrets.TOKEN }}
         commit_message: Version update
 
-
-
