@@ -8,4 +8,4 @@ resources:
 namespace: prod
 images:
 - name: chendazhen/gitops-webapp-demo
-  newTag: fc80e97
+  newTag: 5aebc05
