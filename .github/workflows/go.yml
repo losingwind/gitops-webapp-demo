@@ -3,10 +3,12 @@ name: Go
 on:
   push:
     branches: [ master ]
+    paths:
+      - deployment/prod
   pull_request:
     branches: [ master ]
-  paths:
-    - deployment/prod
+    paths:
+      - deployment/prod
 
 jobs:
 
