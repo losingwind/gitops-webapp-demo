@@ -12,6 +12,6 @@ on:
 
 jobs:
   build:
-    uses: ./workflows/build.yaml
+    uses: ./.github/workflows/build.yaml
     with:
       mytag: dchen1
