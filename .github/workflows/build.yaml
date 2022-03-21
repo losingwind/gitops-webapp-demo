@@ -39,7 +39,7 @@ jobs:
       run: |
         # Build a docker container and push it to ECR
         git_hash=$(git rev-parse --short "$GITHUB_SHA")
-        image_tag=$mytag.$git_hash
+        image_tag=${{ inputs.mytag }}.$git_hash
         docker build -t chendazhen/gitops-webapp-demo:$image_tag .
         echo "Pushing image to dockerhub..."
         docker push chendazhen/gitops-webapp-demo:$image_tag
