@@ -6,6 +6,11 @@ on:
       mytag:
         required: true
         type: string
+    secrets:
+      DOCKER_USER_NAME:
+        required: true
+      DOCKER_PASSWORD:
+        required: true
 
 jobs:
   build:

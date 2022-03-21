@@ -15,3 +15,6 @@ jobs:
     uses: ./.github/workflows/build.yaml
     with:
       mytag: dchen1
+    secrets:
+      DOCKER_USER_NAME: ${{ secrets.DOCKER_USER_NAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
